@@ -1,0 +1,22 @@
+/*  Vista Verificar Visita    */
+.bounceIn-fallos {
+	max-width: 600px;
+	padding: 0 16px;
+	margin: 24px auto;
+	-webkit-animation-duration: .75s;
+	-webkit-animation-delay: .5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-name: bounceIn;
+	-moz-animation-duration: .75s;
+	-moz-animation-delay: .5s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-moz-animation-name: bounceIn;
+	animation-duration: .75s;
+	animation-delay: .5s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+	animation-name: bounceIn;
+}
+/*  FIN - Vista Verificar Visita    */

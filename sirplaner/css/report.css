@@ -1,0 +1,80 @@
+#resumen_report td {
+    line-height: 18px;
+    padding: 8px;
+}
+
+#resumen_report tr {
+    border-top: 1px solid #DDDDDD;
+}
+
+#resumen_report tr.par {
+    background-color: #F9F9F9;
+}
+
+#resumen_report tr:hover {
+    background-color: #F5F5F5;
+}
+
+#resumen_report tr.cabecera {
+    color: #000000;
+    font-family: Arial black;
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#resumen_report tr.cabecera-visita, #resumen_report tr.cabecera-ingresos {
+    border-top: 3px solid #AAAAAA;
+    border-bottom: 3px solid #AAAAAA;
+    color: #000000;
+    font-family: Arial black;
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#resumen_report tr.cabecera-ingresos td {
+    text-align: center;
+}
+
+#resumen_report tr.separador-reporte td {
+    line-height: 10px;
+    height: 10px;
+    padding: 0px;
+}
+
+#resumen_report tr.separador-reporte:hover {
+    background-color: #ffffff;
+}
+
+form#reporte-resumen-visitas-form {
+    margin: 0px;
+    vertical-align: middle;
+}
+
+form#reporte-resumen-visitas-form input[type=text]{
+    margin: 0 0 8px 0;
+}
+
+form#reporte-resumen-visitas-form label {
+    display: inline;
+}
+
+form#reporte-resumen-visitas-form button.btn {
+    margin: 0 0 8px 0;
+}
+
+hr.separador_report {
+    margin: 0px 0px 10px 0px !important;
+    border-color: #999999 !important;
+}
+
+hr {
+    border-color: #BBBBBB !important;
+}
+
+/*  Acordion de estadisticas    */
+div.ui-accordion-content {
+    height: auto !important;
+}
+/*  FIN - Acordion de estadisticas    */

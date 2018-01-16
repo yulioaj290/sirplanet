@@ -1,0 +1,769 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 10pt Arial,Helvetica,sans-serif;
+    background: #EFEFEF;
+}
+
+#page
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: white;
+    border: 1px solid #C9E0ED;
+}
+
+#header
+{
+    margin: 0;
+    padding: 0;
+    border-top: 3px solid #C9E0ED;
+}
+
+#content
+{
+    margin-top: 30px;
+    padding: 20px;
+    width: 96%;
+}
+
+#sidebar
+{
+    padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+    padding: 10px 20px;
+    font-size: 200%;
+}
+
+.navbar a.brand {
+    padding: 4px 10px 0px 25px !important;
+}
+
+#mainmenu
+{
+    background:white url(bg.gif) repeat-x left top;
+}
+
+#mainmenu ul
+{
+    padding:6px 20px 5px 20px;
+    margin:0px;
+}
+
+#mainmenu ul li
+{
+    display: inline;
+}
+
+#mainmenu ul li a
+{
+    color:#ffffff;
+    background-color:transparent;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+    color: #6399cd;
+    background-color:#EFF4FA;
+    text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+}
+
+div.flash-error
+{
+    background:#FBE3E4;
+    color:#8a1f11;
+    border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+    background:#FFF6BF;
+    color:#514721;
+    border-color:#FFD324;
+}
+
+div.flash-success
+{
+    background:#E6EFC2;
+    color:#264409;
+    border-color:#C6D880;
+}
+
+div.flash-error a
+{
+    color:#8a1f11;
+}
+
+div.flash-notice a
+{
+    color:#514721;
+}
+
+div.flash-success a
+{
+    color:#264409;
+}
+
+div.form .rememberMe label
+{
+    display: inline;
+}
+
+div.view
+{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+    font-size: 0.9em;
+    padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+    font-weight: bold;
+}
+
+div.search-form
+{
+    padding: 10px;
+    margin: 10px 0;
+    background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+    padding: 3px 8px;
+    background: #B7D6E7;
+    border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #298dcd;
+}
+
+.portlet-content
+{
+    font-size:0.9em;
+    margin: 0 0 15px 0;
+    padding: 5px 8px;
+    background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.portlet-content li
+{
+    padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.operations li
+{
+    padding-bottom: 2px;
+}
+
+.operations li a
+{
+    font: bold 12px Arial;
+    color: #0066A4;
+    display: block;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.operations li a:visited
+{
+    color: #0066A4;
+}
+
+.operations li a:hover
+{
+    background: #80CFFF;
+}
+
+/*   Paneles de informacion inicial   */
+img#logo-sitio{
+    width: 100%;
+    display: block;
+}
+
+div.hero-unit{
+    text-align: center !important;
+}
+
+div.hero-unit div.bootHero-content, div#content-list-crud{
+    text-align: left !important;
+}
+
+#panels-detail, #panels-detail * {
+    margin: 0px;
+    padding: 0px;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#panels-detail {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#panels-detail div {
+    float: left;
+    width: 48.42%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    margin: 5px 6px;
+}
+
+#panels-detail-more {
+    width: 98.8%;
+    padding: 3px 0 6px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: #EEEEEE;
+    margin: 5px 6px;
+    text-align: center;
+}
+
+#panels-detail-more h2 {
+    display: inline;
+}
+
+#panels-detail ul, #panels-detail ol {
+    margin: 0 0 0 40px;
+}
+
+#panels-detail-info h2 {
+    padding: 3px 10px;
+    background-color: #0074CC;
+    background-image: -moz-linear-gradient(center top , #0088CC, #0055CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 6px 6px 0 0;
+}
+
+#panels-detail-info h2 i, #panels-detail-warning h2 i, #panels-detail-important h2 i  {
+    margin-top: 7px;
+}
+
+#panels-detail-warning h2{
+    padding: 3px 10px;
+    background-color: #F89406;
+    background-image: -moz-linear-gradient(center top , #ffc01f, #F89406);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 6px 6px 0 0;
+}
+
+#panels-detail-important h2 {
+    padding: 3px 10px;
+    background-color: #DA4F49;
+    background-image: -moz-linear-gradient(center top , #EE5F5B, #BD362F);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 6px 6px 0 0;
+}
+
+#panels-detail-clear {
+    clear: both !important;
+}
+
+#panels-detail p{
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+/*   Paneles grandes   */
+#panels-big {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    margin: 5px 0px;
+}
+
+#panels-big ul, #panels-big ol {
+    margin: 0 0 0 40px;
+}
+
+#panels-big h2.info {
+    padding: 3px 10px;
+    background-color: #49AFCD;
+    background-image: -moz-linear-gradient(center top , #5BC0DE, #2F96B4);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 6px 6px 0 0;
+}
+
+#panels-big h2.important {
+    padding: 3px 10px;
+    background-color: #DA4F49;
+    background-image: -moz-linear-gradient(center top , #EE5F5B, #BD362F);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 6px 6px 0 0;
+}
+
+#panels-big p, #panels-big>div{
+    font-size: 14px;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+#panels-big h3{
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+/*   Iconos paneles grandes   */
+
+#panels-big i {
+    margin-top: 7px;
+}
+/*   Fin Iconos paneles grandes   */
+/*   Fin Paneles Grandes   */
+
+/*   Complementos de ayuda   */
+div.tab-content {
+    background-color: #FFFFFF;
+    border-width: 0px 1px 1px;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-radius: 0px 0px 4px 4px;
+}
+
+#panels-big a, #panels-detail a {
+    color: #0088CC;
+}
+
+div.tabs-above ul, div.tabs-above ol {
+    margin: 0px !important;
+}
+/*   Fin complementos de ayuda   */
+/*   Fin de paneles de informacion   */
+
+/*   Panel de menu de optiones   */
+#option-menu{
+    float: left;
+    margin: 0 5px;
+    width: 25%;
+}
+/*   Fin paneles de menu de opciones   */
+
+/*   Listado de Crud   */
+#content-list-crud {
+    margin-top: 50px;
+    padding: 0 20px;
+}
+/*   Fin listado de Crud   */
+
+/*   Pagina de Autenticacion   */
+#usercontent-global{
+    margin-top: 40px;
+    /*padding: 20px;
+    float:left;*/
+}
+/*   Fin Pagina de Autenticacion   */
+
+/**********************************************************************/
+/*	 Correccion de conflictos	*/
+#usercontent {
+    float: left !important; 
+    padding: 20px !important; 
+    width:68% !important; 
+    margin: 5px !important;
+}
+
+#logincontent {
+    margin-top: 30px;
+    padding: 20px !important;
+}
+
+#usermenu {
+    float:right !important; 
+    width:25% !important; 
+    margin: 0px 5px 0px 5px !important;
+}
+
+#usermenu span {
+    text-align: center !important;
+    background-color: #EEEEEE !important; 
+    color: black !important; 
+    padding:3px !important; 
+    margin:5px !important; 
+    width: 300px !important;
+}
+
+#usermenu .nav-list > .active > a, .nav-list > .active > a:hover {
+    background-color: #0088CC !important;
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+#usermenu .nav-list > li > a {
+    padding: 3px 15px !important;
+}
+
+#usermenu .nav-list > li.active > a {
+    padding: 3px 15px !important;
+}
+
+#usermenu .nav-list > li.active {
+    margin: 0px;
+}
+
+#usermenu .nav-list > li > a, .nav-list .nav-header {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) !important;
+}
+
+#usermenu a {
+    color: #1388D2 !important; 
+    text-decoration: none !important;
+}
+
+#usermenu a:hover {
+    color: #1388D2 !important; 
+    text-decoration:none !important;
+}
+
+#usermenu li.nav-header {
+    color: #999999 !important;
+}
+
+#usermenu .active a:hover {
+    color: #ffffff !important;
+}
+
+#usermenu .active {
+    color: #ffffff !important;
+    font-weight: bold !important; 
+    text-decoration: none !important; 
+}
+
+#username li.active a{
+    color: #ffffff !important;
+}
+
+
+/*	 Fin Correccion de conflictos	*/
+/**********************************************************************/
+
+/*   Tabla de capacidades de reservaciones   */
+
+div.tabla-capacidad table{
+    color: #333333;
+    width: 100%;
+    border: 1px #333333 solid;
+    border-radius: 6px !important;  
+    border-collapse: inherit;
+    font-size: 30px;
+}
+
+div.tabla-capacidad table tr {
+    border-bottom: 1px #333333 solid;
+    height: 60px;
+}
+
+div.tabla-capacidad table td {
+    width: 16.66%;
+    border-right: 1px #333333 solid;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.tabla-capacidad table td h3 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+div.tabla-capacidad table .capacidad-row-1 {
+    background-color: #c0c0c0;
+    background: -o-linear-gradient(#f0f0f0, #c0c0c0);
+    background: -moz-linear-gradient(#f0f0f0, #c0c0c0);
+    background: -webkit-linear-gradient(#f0f0f0, #c0c0c0);
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px #ffffff;
+    height: 45px;
+}
+
+div.tabla-capacidad table .cabecera {
+    font-size: 15px;
+    line-height: 13px;
+}
+
+div.tabla-capacidad table .capacidad-cell-1 {
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #cacaca;
+}
+
+div.tabla-capacidad table .capacidad-row-par {
+    background-color: #ffffff;
+}
+
+div.tabla-capacidad table .capacidad-row-impar {
+    background-color: #f5f5f5;
+}
+/*   Fin Tabla de capacidades de reservaciones   */
+
+/*   Boton de ayuda circular   */
+.btn-help-circle {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #E6E6E6 #E6E6E6 #B3B3B3;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline !important;
+    border-radius: 20px !important;
+    font-size: 18px !important;
+    padding: 1px 7px !important;
+}
+
+.btn-help-circle:hover {
+    background-position: 0 -15px;
+    -moz-transition: background-position 0.1s linear 0s;
+    text-decoration: none;
+}
+/*   Fin Boton de ayuda circular   */
+
+/*   Tubnails de Capacidades de calendario   */
+div.hero-capacidades {
+    background-color: #EEEEEE;
+    font-size: 25px;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+    padding: 20px 25px;
+    float: left;
+    margin: 15px 12px;
+}
+
+div.hero-capacidades hr {
+    border-color: #999999;
+}
+
+div.div-thumbnails {
+    float: left;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+h3.fun-capacidades {
+    font-size: 35px;
+    text-align: center;
+}
+
+p.clear {
+    clear: both;
+}
+
+a#reservados-thumbnail {
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 34px !important;
+    height: 30px !important;
+    margin: 5px 0px !important;
+}
+
+a#capacidades-thumbnail {
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 110px !important;
+    height: 30px !important;
+    margin: 5px 0px 15px 0px !important;
+}
+/*   FIN - Tubnails de Capacidades de calendario   */
+
+/*   Visitas   */
+fieldset#groupVisitas{
+    border-radius: 6px;
+    padding: 15px 55px 15px 15px;
+    margin: 0 15px 15px 0;
+    float: left;
+}
+
+fieldset#groupVisitas legend, fieldset#groupVisitas-fallos legend {
+    border: 0px;
+    width: auto;
+    padding: 0px 5px;
+    margin: 0px 3px;
+    vertical-align: middle;
+    font-style: italic;
+    font-size: 18px;
+}
+
+div#groupVisitas-fallos{
+    border-radius: 6px;
+    border: #eeeeee solid 1px;
+    padding: 10px 10px 0px 10px;
+    margin: 15px 15px 25px 0;
+    width: 190px;
+    height: 175px;
+    float: right;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+div#groupVisitas-fallos em {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-left: 15px;
+    padding: 0 5px;
+    font-style: italic;
+    font-size: 18px;
+    position: relative;
+    top: -18px;
+}
+
+div#groupVisitas-fallos h1{
+    height: 95px;
+    font-size: 130px;
+    font-family: serif;
+    font-variant: small-caps;
+    margin: 50px 0 0 0;
+    text-align: center;
+    color:#A80010;
+    text-shadow: 0 -1px 5px rgba(0, 0, 0, 0.4) !important;
+}
+
+/*  TypeHead    */
+div.ac_results {
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) !important;
+    z-index: 1000 !important;
+    border-radius: 0 0 4px 4px;
+}
+
+div.ac_results li{
+    height: 20px;
+    font-size: 14px;
+    padding: 5px 0 0 10px;
+}
+
+li.ac_over{
+    background-color: rgb(0, 136, 204) !important;
+}
+/*  FIN - TypeHead    */
+
+/*  Label de campos de verificar visita    */
+p.labelVisitas {
+    font-weight: bold;
+    line-height: 14px;
+}
+
+/*  Icono de resultado de busqueda en verificacion de visitas    */
+img.iconVisitas {
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    width: 150px;
+    height: 150px;
+    border: #cccccc solid 1PX;
+    border-radius: 500px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+/*  Boton de visitas    */
+div.left, form.left {
+    float: left;
+}
+
+/*  Boton de consumir fallos    */
+div.right, form.right {
+    float: right;
+}
+
+div.right-button {
+    padding: 0 0 0 48px !important;
+}
+
+/*   FIN - Visitas   */
+
+/*   Separacion de campos en formularios   */
+div.separador-form{
+    padding: 15px 55px 15px 15px !important;
+    margin: 0 !important;
+    float: left !important;
+}
+div.separador-form-clear{
+    clear: both !important;
+}
+/*   FIN - Separacion de campos en formularios   */
